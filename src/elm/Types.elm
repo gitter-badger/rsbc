@@ -8,8 +8,12 @@ import Navigation
 
 type Route
     = HomeRoute
-    | PageOneRoute
-    | PageTwoRoute
+    | SubjectSelectionRoute
+    | SubjectRoute
+    | ResourceRoute
+    | MapRoute
+    | AboutRoute
+    | NotFoundRoute
 
 
 type alias Model =
